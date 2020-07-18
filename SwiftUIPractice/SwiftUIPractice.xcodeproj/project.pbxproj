@@ -13,6 +13,7 @@
 		8928728224B9AC7400799950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8928728124B9AC7400799950 /* Assets.xcassets */; };
 		8928728524B9AC7400799950 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8928728424B9AC7400799950 /* Preview Assets.xcassets */; };
 		8928728824B9AC7400799950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8928728624B9AC7400799950 /* LaunchScreen.storyboard */; };
+		89AFC52024C330EB005ABCDB /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AFC51F24C330EB005ABCDB /* StackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8928728424B9AC7400799950 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8928728724B9AC7400799950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8928728924B9AC7400799950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AFC51F24C330EB005ABCDB /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8928728624B9AC7400799950 /* LaunchScreen.storyboard */,
 				8928728924B9AC7400799950 /* Info.plist */,
 				8928728324B9AC7400799950 /* Preview Content */,
+				89AFC51F24C330EB005ABCDB /* StackView.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				8928727C24B9AC7300799950 /* AppDelegate.swift in Sources */,
 				8928727E24B9AC7300799950 /* SceneDelegate.swift in Sources */,
 				8928728024B9AC7300799950 /* ContentView.swift in Sources */,
+				89AFC52024C330EB005ABCDB /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
