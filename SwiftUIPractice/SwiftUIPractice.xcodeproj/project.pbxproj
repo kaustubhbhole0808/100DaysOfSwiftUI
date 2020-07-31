@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		8928727C24B9AC7300799950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8928727B24B9AC7300799950 /* AppDelegate.swift */; };
 		8928727E24B9AC7300799950 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8928727D24B9AC7300799950 /* SceneDelegate.swift */; };
-		8928728024B9AC7300799950 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8928727F24B9AC7300799950 /* ContentView.swift */; };
+		8928728024B9AC7300799950 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8928727F24B9AC7300799950 /* ImageView.swift */; };
 		8928728224B9AC7400799950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8928728124B9AC7400799950 /* Assets.xcassets */; };
 		8928728524B9AC7400799950 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8928728424B9AC7400799950 /* Preview Assets.xcassets */; };
 		8928728824B9AC7400799950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8928728624B9AC7400799950 /* LaunchScreen.storyboard */; };
+		897AD13B24C441420076DD13 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897AD13A24C441420076DD13 /* SegmentedControlView.swift */; };
 		89AFC52024C330EB005ABCDB /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AFC51F24C330EB005ABCDB /* StackView.swift */; };
+		89DE15D824D3E3820042E1D8 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE15D724D3E3820042E1D8 /* LoginScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8928727824B9AC7300799950 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8928727B24B9AC7300799950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8928727D24B9AC7300799950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8928727F24B9AC7300799950 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8928727F24B9AC7300799950 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		8928728124B9AC7400799950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8928728424B9AC7400799950 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8928728724B9AC7400799950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8928728924B9AC7400799950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897AD13A24C441420076DD13 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
 		89AFC51F24C330EB005ABCDB /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		89DE15D724D3E3820042E1D8 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				8928727B24B9AC7300799950 /* AppDelegate.swift */,
 				8928727D24B9AC7300799950 /* SceneDelegate.swift */,
-				8928727F24B9AC7300799950 /* ContentView.swift */,
+				8928727F24B9AC7300799950 /* ImageView.swift */,
 				8928728124B9AC7400799950 /* Assets.xcassets */,
 				8928728624B9AC7400799950 /* LaunchScreen.storyboard */,
 				8928728924B9AC7400799950 /* Info.plist */,
 				8928728324B9AC7400799950 /* Preview Content */,
 				89AFC51F24C330EB005ABCDB /* StackView.swift */,
+				897AD13A24C441420076DD13 /* SegmentedControlView.swift */,
+				89DE15D724D3E3820042E1D8 /* LoginScreenView.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897AD13B24C441420076DD13 /* SegmentedControlView.swift in Sources */,
 				8928727C24B9AC7300799950 /* AppDelegate.swift in Sources */,
 				8928727E24B9AC7300799950 /* SceneDelegate.swift in Sources */,
-				8928728024B9AC7300799950 /* ContentView.swift in Sources */,
+				8928728024B9AC7300799950 /* ImageView.swift in Sources */,
+				89DE15D824D3E3820042E1D8 /* LoginScreenView.swift in Sources */,
 				89AFC52024C330EB005ABCDB /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

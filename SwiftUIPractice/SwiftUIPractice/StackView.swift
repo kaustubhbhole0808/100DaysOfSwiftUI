@@ -33,23 +33,6 @@ struct StackView: View {
     }
 }
 
-struct CellRow: View {
-    var body: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 10) {
-                Image("treeImage")
-                    .frame(width: 100, height: 100, alignment: .center)
-                    .clipShape(Circle())
-                    .padding(.leading, 20)
-                Text("Nature is So beautiful")
-            }
-            Image("bird1")
-            .resizable()
-            .frame(width: 160, height: 160, alignment: .center)
-        }.background(Color(.lightGray))
-    }
-}
-
 struct StackView_Previews: PreviewProvider {
     static var previews: some View {
         StackView()
