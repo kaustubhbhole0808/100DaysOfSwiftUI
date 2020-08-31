@@ -51,7 +51,7 @@ struct LoginScreenView: View {
                     .padding(Edge.Set.vertical, 5)
                 }
                     Spacer()
-                NavigationLink(destination: SegmentedControlView(), tag: 1, selection: $loginBittonClick) {
+                NavigationLink(destination: MovieListView(), tag: 1, selection: $loginBittonClick) {
                    Button(action: {
                     self.loginBittonClick = 1
                    }) {
@@ -71,7 +71,6 @@ struct LoginScreenView: View {
                }
                .padding(.horizontal,30)
            }
-            .navigationBarTitle(Text("Login"))
         }
 }
 
