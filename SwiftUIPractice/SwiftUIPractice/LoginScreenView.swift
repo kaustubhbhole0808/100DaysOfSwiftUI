@@ -51,7 +51,7 @@ struct LoginScreenView: View {
                     .padding(Edge.Set.vertical, 5)
                 }
                     Spacer()
-                NavigationLink(destination: MovieListView(), tag: 1, selection: $loginBittonClick) {
+                NavigationLink(destination: GeometryReaderView(), tag: 1, selection: $loginBittonClick) {
                    Button(action: {
                     self.loginBittonClick = 1
                    }) {

@@ -13,6 +13,7 @@
 		8928728224B9AC7400799950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8928728124B9AC7400799950 /* Assets.xcassets */; };
 		8928728524B9AC7400799950 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8928728424B9AC7400799950 /* Preview Assets.xcassets */; };
 		8928728824B9AC7400799950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8928728624B9AC7400799950 /* LaunchScreen.storyboard */; };
+		8936BDB4250A2D0F0079C139 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8936BDB3250A2D0F0079C139 /* GeometryReaderView.swift */; };
 		897AD13B24C441420076DD13 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897AD13A24C441420076DD13 /* SegmentedControlView.swift */; };
 		89AFC52024C330EB005ABCDB /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AFC51F24C330EB005ABCDB /* StackView.swift */; };
 		89DE15D824D3E3820042E1D8 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE15D724D3E3820042E1D8 /* LoginScreenView.swift */; };
@@ -33,6 +34,7 @@
 		8928728424B9AC7400799950 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8928728724B9AC7400799950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8928728924B9AC7400799950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8936BDB3250A2D0F0079C139 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		897AD13A24C441420076DD13 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
 		89AFC51F24C330EB005ABCDB /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		89DE15D724D3E3820042E1D8 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		8928727A24B9AC7300799950 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8936BDB2250A2B710079C139 /* GeometryReader */,
 				89DE15D924D9378F0042E1D8 /* MovieApp */,
 				8928727B24B9AC7300799950 /* AppDelegate.swift */,
 				8928727D24B9AC7300799950 /* SceneDelegate.swift */,
@@ -95,6 +98,14 @@
 				8928728424B9AC7400799950 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8936BDB2250A2B710079C139 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				8936BDB3250A2D0F0079C139 /* GeometryReaderView.swift */,
+			);
+			path = GeometryReader;
 			sourceTree = "<group>";
 		};
 		89DE15D924D9378F0042E1D8 /* MovieApp */ = {
@@ -189,6 +200,7 @@
 			files = (
 				89EF318224FCF2C200764AD9 /* PopularMovie.swift in Sources */,
 				897AD13B24C441420076DD13 /* SegmentedControlView.swift in Sources */,
+				8936BDB4250A2D0F0079C139 /* GeometryReaderView.swift in Sources */,
 				89EF318424FCF31F00764AD9 /* ApiClient.swift in Sources */,
 				89DE15DB24D9396C0042E1D8 /* MovieListView.swift in Sources */,
 				8928727C24B9AC7300799950 /* AppDelegate.swift in Sources */,
